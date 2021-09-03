@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerProfileActivity"
+    android:orientation="vertical"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/cp_profileImage_iv"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/ic_baseline_add_a_photo_24"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/cp_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Name"
+        android:layout_marginBottom="20sp"/>
+
+    <EditText
+        android:id="@+id/cp_number_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Phone"
+        android:layout_marginBottom="20sp"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/cp_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"/>
+
+    <Button
+        android:id="@+id/cp_back_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+
+
+</LinearLayout>
